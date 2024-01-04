@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <head>
+    <link rel="stylesheet" href="homepage.css">
+    <title>home page</title>
+ </head>   
+    <body>
+       <nav>
+           <button class="menu-button" id="menuButton">Menu</button>
+         <ul class="menu-items" id="menuItems">
+           <li class="menu-items"><a href="#">Home</a></li>
+           <li class="menu-items"><a href="#">About</a></li>
+           <li class="menu-items"><a href="#">Services</a></li>
+           <li class="menu-items"><a href="#">Contact</a></li>
+         </ul>  
+       </nav>
+       <div id="content">
+         <h1>Faraj Omar</h1>
+         <p>welcome to my home page.</p>
+       </div>     
+       <script>
+         document.getElementById('menuButton').addEventListener('click', function() {
+            var menuItems = document.getElementById('menuItems');
+            if (menuItems.style.display === 'block') {
+               menuItems.style.display = 'none';
+            } else {
+               menuItems.style.display = 'block'
+            }
+         });
+       </script>
+ </body>

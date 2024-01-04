@@ -1,0 +1,37 @@
+.menu-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #2890b9;
+}
+
+.menu-items {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items {
+    margin-bottom: 10px;
+}
+
+.menu-items a {
+    text-decoration: none !important;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu-items a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
